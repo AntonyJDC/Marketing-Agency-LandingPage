@@ -6,8 +6,8 @@ const navigation = [
   { name: 'Inicio', href: '/' },
   { name: 'Nosotros', href: '#Nosotros' },
   { name: 'Servicios', href: '#Servicios' },
-  { name: 'Trabajos', href: '#' },
-  { name: 'Blog', href: '#' },
+  { name: 'Blog', href: '#Blog' },
+  { name: 'Visitanos', href: '#Visitanos' },
 ]
 
 export default function Navbar() {
@@ -42,7 +42,7 @@ export default function Navbar() {
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
             <a href="#" className="flex bg-primary shadow-2xl p-2.5 px-5 rounded-3xl text-base font-semibold leading-6 text-white items-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 hover:bg-secondary duration-300">
-            <PhoneIcon className='h-4.5 w-5 mr-3'/> Contactanos 
+              <PhoneIcon className='h-4.5 w-5 mr-3' /> Contactanos
             </a>
           </div>
         </nav>
@@ -52,11 +52,10 @@ export default function Navbar() {
             <div className="flex items-center justify-between">
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">JO Agencia Digital</span>
-                <img
-                  alt=""
-                  src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                  className="h-8 w-auto"
-                />
+                <a href="/" className="-m-1.5 p-1.5">
+                  <span className="sr-only">JO Agencia Digital</span>
+                  <span className='text-4xl font-bold text-primary'>JO</span>
+                </a>
               </a>
               <button
                 type="button"
@@ -74,7 +73,7 @@ export default function Navbar() {
                     <a
                       key={item.name}
                       href={item.href}
-                      className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-indigo-100"
+                      className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-red-100"
                     >
                       {item.name}
                     </a>

@@ -5,6 +5,7 @@ import Partners from './components/Partners/Partners';
 import Servicios from './components/Servicios/Servicios';
 import Nosotros from './components/Nosotros/Nosotros';
 import Footer from './components/Footer/Footer';
+import Visitanos from './components/Visitanos/Visitanos';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Partners />
       <Nosotros/>
       <Servicios />
+      <Visitanos/>
       <Footer/>
     </main>
   );
