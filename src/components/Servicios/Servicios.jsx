@@ -15,7 +15,7 @@ const Servicios = () => {
     ];
 
     return (
-        <div className="bg-white text-gray-900 py-16 px-8" id='Servicios'>
+        <div className="bg-white text-gray-900 py-12 px-8" id='Servicios'>
             <div className="max-w-7xl mx-auto">
                 <div className='relative isolate text-center py-8 mb-10'>
                     <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">

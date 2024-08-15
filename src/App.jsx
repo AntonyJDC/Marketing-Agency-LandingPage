@@ -3,6 +3,7 @@ import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
 import Partners from './components/Partners/Partners';
 import Servicios from './components/Servicios/Servicios';
+import Nosotros from './components/Nosotros/Nosotros';
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <Partners />
+      <Nosotros/>
       <Servicios />
     </main>
   );
