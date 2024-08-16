@@ -6,10 +6,12 @@ import Servicios from './components/Servicios/Servicios';
 import Nosotros from './components/Nosotros/Nosotros';
 import Footer from './components/Footer/Footer';
 import Visitanos from './components/Visitanos/Visitanos';
+import Socials from './components/Socials/Socials';
 
 const App = () => {
   return (
-    <main className='overflow-x-hidden bg-white text-dark'>
+    <main className='overflow-x-hidden bg-white text-dark'>   
+      <Socials/>
       <Navbar />
       <Hero />
       <Partners />
